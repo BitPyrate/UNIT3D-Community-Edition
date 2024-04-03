@@ -139,6 +139,19 @@
                     </label>
                 </p>
                 <p class="form__group">
+                    <select id="fl_until" class="form__select" name="fl_until">
+                        <option value="">No Limit</option>
+                        <option value="1">1 Day</option>
+                        <option value="2">2 Days</option>
+                        <option value="3">3 Days</option>
+                        <option value="4">4 Days</option>
+                        <option value="5">5 Days</option>
+                        <option value="6">6 Days</option>
+                        <option value="7">7 Days</option>
+                    </select>
+                    <label for="fl_until" class="form__label form__label--floating" for="fl_until">Buff Time</label>
+                </p>
+                <p class="form__group">
                     <button class="form__button form__button--filled">
                         {{ __('common.add') }}
                     </button>
